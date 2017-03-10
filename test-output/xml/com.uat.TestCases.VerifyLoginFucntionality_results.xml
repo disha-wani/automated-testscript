@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="VerifyLogin"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="32.175">
+  <properties />
+  
+  
+            <testcase name="verifyValidLogin" time="17.370" classname="com.uat.TestCases.VerifyLoginFucntionality" />
+                <testcase name="verifyValidLogin" time="14.805" classname="com.uat.TestCases.VerifyLoginFucntionality" />
+      
+</testsuite>

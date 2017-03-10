@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="2" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name=" UAT Automation suite" duration-ms="0" started-at="2017-03-10T05:59:54Z" finished-at="2017-03-10T05:59:54Z">
+    <groups>
+    </groups>
+  </suite> <!--  UAT Automation suite -->
+  <suite name="TM_Project Suite" duration-ms="33215" started-at="2017-03-10T05:59:21Z" finished-at="2017-03-10T05:59:54Z">
+    <groups>
+    </groups>
+    <test name="VerifyLogin" duration-ms="33215" started-at="2017-03-10T05:59:21Z" finished-at="2017-03-10T05:59:54Z">
+      <class name="com.uat.TestCases.VerifyLoginFucntionality">
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@68c72235]" name="verifyValidLogin" duration-ms="14805" started-at="2017-03-10T11:29:21Z" data-provider="getTestData" finished-at="2017-03-10T11:29:35Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[testuser@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@68c72235]" name="CloseDriver" is-config="true" duration-ms="553" started-at="2017-03-10T11:29:35Z" finished-at="2017-03-10T11:29:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+        <test-method status="PASS" signature="verifyValidLogin(java.lang.String, java.lang.String, java.lang.String)[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@68c72235]" name="verifyValidLogin" duration-ms="17370" started-at="2017-03-10T11:29:36Z" data-provider="getTestData" finished-at="2017-03-10T11:29:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test1@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Test Management]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyValidLogin -->
+        <test-method status="PASS" signature="CloseDriver()[pri:0, instance:com.uat.TestCases.VerifyLoginFucntionality@68c72235]" name="CloseDriver" is-config="true" duration-ms="448" started-at="2017-03-10T11:29:53Z" finished-at="2017-03-10T11:29:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CloseDriver -->
+      </class> <!-- com.uat.TestCases.VerifyLoginFucntionality -->
+    </test> <!-- VerifyLogin -->
+  </suite> <!-- TM_Project Suite -->
+</testng-results>
